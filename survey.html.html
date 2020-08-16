@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" type="text/css" href="survey.css.css">
+</head>
+
+<body>
+  <h1 id="title">Iron Man Survey Form</h1>
+
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <div id="body">
+
+    <form id="survey-form">
+      
+      <label id="name-label" for="name">
+      <p>Name:</p>
+      </label>
+
+      <input id="name" type="text" placeholder="Enter Your Name" required>
+      
+      <label id="email-label" for="email">
+      <p>Email:</p>
+      </label>
+
+      <input id="email" type="email" placeholder="Enter Your Email" required>
+      
+      <label id="number-label" for="number">
+      <p>Age:</p>
+      </label>  
+
+      <input id="number" type="number" placeholder="Enter Your Age" min="12" max="50" required>
+      
+      <p>Which Leadership Quality Do You Think Makes Iron Man A Good leader</p>
+      <select id="dropdown">
+        
+        <option value="default">Nothing</option>
+        <option value="money">Money</option>
+        <option value="power">Power</option>
+        <option value="think">Think</option>
+        <option value="strong">Strong</option>
+        
+      </select>
+      
+      <p>Which Iron Man Movie Do You Like The Most?</p>
+      
+      <input type="radio" name="movie" value="1">Iron Man 1</input>
+      <br>
+      <input type="radio" name="movie" value="2">Iron Man 2</input>
+      <br>
+      <input type="radio" name="movie" value="3">Iron Man 3</input>
+      <br>
+
+      <p>Which of the other avengers do you like?</p>
+
+      <input type="checkbox" name="avengers" value="1">Thor</input>
+      <br>
+      <input type="checkbox" name="avengers" value="2">Black Widow</input>
+      <br>
+      <input type="checkbox" name="avengers" value="3">Hulk</input>
+      <br>
+      <input type="checkbox" name="avengers" value="4">Hawkeye</input>
+      <br>
+
+      <textarea id="comment" rows="4" cols="40">Add your comment here</textarea>
+    <input id="submit" type="submit" value="submit">
+
+    </form>
+  </div>
+</body>
+</html>
