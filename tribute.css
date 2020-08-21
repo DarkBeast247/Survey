@@ -1,0 +1,27 @@
+body{
+    text-align:center;
+  }
+  img{
+    max-width:50%;
+    display:block;
+    margin:auto;
+    border-radius:5%;
+    box-shadow:5px 5px 7px grey;
+  }
+  h1{
+    font-size:500%;
+    text-shadow:5px 5px 7px grey;
+  }
+  a:link{
+    color:#262626;
+    text-decoration:none;
+  }
+  a:hover{
+    color:#0066cc;
+  }
+  a:active{
+    color:#262626;
+  }
+  a:visited{
+    color:#333333;
+  }
